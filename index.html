@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Lesson17</title>
+    <script defer src="./script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="title" id="title">Новый заказ</h1>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="main-box">
+          <div class="main-controls elements">
+            <div class="main-controls__views element">
+              <h3>Марка автомобиля</h3>
+              <div class="main-controls__item screen">
+                <div class="main-controls__select">
+                  <select id="mark">
+                    <option value="" selected>Выбрать марку машины</option>
+                    <option value="Ауди">Ауди</option>
+                    <option value="БМВ">БМВ</option>
+                    <option value="Фолксваген">Фолксваген</option>
+                    <option value="Ниссан">Ниссан</option>
+                    <option value="Фиат">Фиат</option>
+                    <option value="Форд">Форд</option>
+                    <option value="Тоёта">Тоёта</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="main-controls__views element">
+              <h3>Цвет автомобиля</h3>
+              <div class="main-controls__item screen">
+                <div class="main-controls__select">
+                  <select name="views-select">
+                    <option value="" selected>Выбрать цвет аутомобиля</option>
+                    <option value="500">Красный</option>
+                    <option value="700">Белый</option>
+                    <option value="800">Синий</option>
+                    <option value="100">Чёрный</option>
+                    <option value="300">Жёлтый</option>
+                    <option value="200">Серый</option>
+                    <option value="100">Зелёный</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="main-controls__views element">
+              <h3>Тип двигателя.</h3>
+              <div class="main-controls__item screen">
+                <div class="main-controls__select">
+                  <select name="views-select">
+                    <option value="" selected>Выбрать двигатель</option>
+                    <option value="500">Бензин</option>
+                    <option value="700">Газ</option>
+                    <option value="800">Дизель</option>
+                    <option value="100">Жигули</option>
+                    <option value="300">Електро</option>
+                    <option value="200">Гибрид</option>
+                    
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="main-controls__views element">
+              <h3>Объём двигателя</h3>
+              <div class="main-controls__item screen">
+                <div class="main-controls__select">
+                  <select id="views-select">
+                    <option value="" selected>Выбрать объём двигателя</option>
+                    <option value="500">0,5л</option>
+                    <option value="700">1,0л</option>
+                    <option value="800">1,5л</option>
+                    <option value="100">2,0л</option>
+                    <option value="300">2,5л</option>
+                    <option value="200">3,0л</option>
+                    <option value="100">3,5л</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="main-controls__views element">
+              <h3>Привод</h3>
+              <div class="main-controls__item screen">
+                <div class="main-controls__select">
+                  <select name="views-select">
+                    <option value="" selected>Привод</option>
+                    <option value="Передний">Передний</option>
+                    <option value="Задний">Задний</option>
+                    <option value="Полный">Полный</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="main-total__buttons">
+                        <button class="handler_btn" id="start">Ввести в таблицу</button>
+                        <button class="handler_btn" id="reset" style="display: none;">Сброс</button>
+                    </div>
+      <div id="elem"> </div>
+    </main>
+  </body>
+</html>
